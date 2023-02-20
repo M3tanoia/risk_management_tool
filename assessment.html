@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IT Risk Assessment</title>
+  </head>
+  <body>
+    <h1>IT Risk Assessment</h1>
+    <form method="post" action="/assessment">
+      <label for="company_name">Company Name:</label>
+      <input type="text" id="company_name" name="company_name" required><br><br>
+      <label for="physical_security">Physical Security:</label>
+      <select id="physical_security" name="physical_security" required>
+        <option value="">Select an option</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select><br><br>
+      <label for="network_security">Network Security:</label>
+      <select id="network_security" name="network_security" required>
+        <option value="">Select an option</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select><br><br>
+      <label for="data_security">Data Security:</label>
+      <select id="data_security" name="data_security" required>
+        <option value="">Select an option</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
